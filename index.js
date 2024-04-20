@@ -9,7 +9,7 @@ app.listen(port, () => {
 });
 
 app.get("/", (req, res) => {
-  res.send("you contacted root path");
+  res.send("you contacted Sarita root path");
 });
 
 app.get("/search", (req, res) => {
